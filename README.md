@@ -90,10 +90,9 @@ python ./src/pre_processing/feature_extraction.py \
 ### 4. `src/data_analysis`
 
 This directory contains multiple jupyter notebooks going over the data analysis part of the extracted features for our **E. coli** dataset:
-- cell_cycle 
-- 
-- 
-- 
+- cell_cycle_trajectory_analysis.ipynb: Analysis using PHATE dimension reduction
+- differential_feature_means_analysis.ipynb: wild-type vs mutants
+- enrichment_analysis.ipynb: clustering and dimension reduction visualization 
 
 ### Extra. Grad Cam
 
