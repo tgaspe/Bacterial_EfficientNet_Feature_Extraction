@@ -149,10 +149,8 @@ def process_file(args):
 def main():
     parser = argparse.ArgumentParser(description="Generate patches from images and masks.")
     parser.add_argument('--input-dir', type=str, 
-                        default='/scratch/leuven/359/vsc35907/feature_extraction_data/stacked_images/mutants/',
                         help='Directory containing input TIFF images and masks subdirectory')
     parser.add_argument('--output-dir', type=str,
-                        default='/scratch/leuven/359/vsc35907/feature_extraction_data/patches7/mutants/',
                         help='Directory to save output patches')
     parser.add_argument('--processed-file', type=str, default='processed.txt',
                         help='File to track processed TIFF files')
