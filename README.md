@@ -1,5 +1,5 @@
 # Bacterial_EfficientNet_Feature_Extraction
-This repository provides a pipeline for extracting high-level features from multichannel **E. coli** images using an EfficientNet model, aimed at distinguishing between wild-type and mutant deletion strain cells. The extracted features can be used for downstream analysis in microbiology, such as studying gene delition effect on bacterial morphology. The project includes scripts for image preprocessing, model training, feature extraction, and data analysis.
+This repository provides a pipeline for extracting high-level features from multichannel *E. coli* images using an EfficientNet model, aimed at distinguishing between wild-type and mutant deletion strain cells. The extracted features can be used for downstream analysis in microbiology, such as studying gene delition effect on bacterial morphology. The project includes scripts for image preprocessing, model training, feature extraction, and data analysis.
 
 ## Table of Contents:
 - [Virtual Environment Installation](#virtual-environment-installation)
@@ -96,7 +96,7 @@ python ./src/area_extraction.py \
 
 ### 4. `src/data_analysis`
 
-This directory contains multiple jupyter notebooks going over the data analysis part of the extracted features for our **E. coli** dataset:
+This directory contains multiple jupyter notebooks going over the data analysis part of the extracted features for our *E. coli* dataset:
 - __cell_cycle_trajectory_analysis.ipynb__: Analysis using PHATE dimension reduction
 - __differential_feature_means_analysis.ipynb__: wild-type vs mutants
 - __enrichment_analysis.ipynb__: clustering and dimension reduction visualization 
@@ -114,7 +114,9 @@ python src/EfficientNet/gradcam.py \
 ```
 
 ## Dataset
-The extracted embeddings from our **E. coli** images can be found here: 
+The extracted embeddings from our *E. coli* images can be found here: 
+
+[link here]()
 
 ### Acknowledgments
 
